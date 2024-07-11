@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EMS Double</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+    <section class="page1">
+    <div class="container">
+        <div class="demo-section">
+            <h2 class="demo-section-maintext">Демо-версия</h2>
+            <p class="demo-section-text">За 18 лет деятельности было реализовано более 500 крупных, а так же, не менее 2500 средних и малых проектов. Используя знания и накопленный опыт мы можем предложить</p>
+            <button class="demo-section-button1" id="openLoginBtn">Попробовать бесплатно
+                <img class="demo-section-button-image" src="img/Frame 1141.png" alt="ButtonImage">
+            </button>
+            
+        </div>
+        <div class="image-section">
+            <img src="img/image 15.png" alt="Demo Image">
+        </div>
+    </div>
+
+    <div id="loginModal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h2>Войти в систему</h2>
+            <form>
+                <label for="email">Email/Телефон</label>
+                <input type="text" id="email" name="email">
+                
+                <label for="password">Пароль</label>
+                <input type="password" id="password" name="password">
+                
+                <label>
+                    <input type="checkbox" name="remember"> Запомнить пароль
+                </label>
+                
+                <a href="#">Восстановить</a>
+                <button type="submit">Войти</button>
+                <button type="button">Зарегистрироваться</button>
+            </form>
+        </div>
+    </div>
+    </section>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
