@@ -193,6 +193,7 @@ button:focus {
     overflow: auto; 
     background-color: rgb(0,0,0); 
     background-color: rgba(0,0,0,0.4); 
+    overflow: hidden; 
 }
 
 .modal-content {
@@ -221,6 +222,7 @@ button:focus {
 form {
     display: flex;
     flex-direction: column;
+    
 }
 
 label {
