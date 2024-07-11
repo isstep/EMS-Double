@@ -113,7 +113,7 @@ button:focus {
 
 .demo-section-button-image {
     width: 45px;
-    height: 43px;
+    height: 45px;
 }
 
 .image-section {
@@ -176,14 +176,14 @@ button:focus {
     .image-section {
         margin-left: 0px;
         width: 680px;
-        height: 456px;
+        height: 455px;
 
     }
 
     .image-section-settings{
         margin-left: 97px; 
         width: 680px;
-        height: 456px;
+        height: 455px;
         padding: 0%;
     }
 
@@ -197,8 +197,71 @@ button:focus {
 }
 
 @media (max-width: 768px) {
+    .page1{
+        width: 768px;
+        height: 634px;
+        padding: 24px;
+    }
 
 
+    .demo-section-maintext {
+        font-size: 21px;    
+        margin-top: 0px;
+    }
+
+    .container {
+        display: flex;
+        width: 720px;
+        height: 586px;
+        flex-direction: column;
+        
+        background: #EBF0FA;
+        border-radius: 10px;
+
+    }
+
+    .demo-section {
+       margin: 24px;
+       width: 672px;
+       font-weight: 400;
+      
+    }
+
+    .image-section{
+        width: 720px;
+        height: 360px;
+   
+        
+    }
+    
+    .demo-section-text{
+        font-size: 15px;
+    }
+
+    .demo-section-button1 {
+        padding: 10px 10px 10px 16px;
+        gap: 20px;
+        font-size: 16px;
+        margin-top: 25px;
+    }
+
+    .demo-section-button-image {
+        width: 36px;
+        height: 36px;
+    }
+
+    .image-section-settings{
+        width: 720px;
+        height: 360px;
+
+        margin-left:0px;
+
+    }
+
+    .image-section-settings{
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 10px;
+    }
 }
 
 @media (max-width: 375px) {
