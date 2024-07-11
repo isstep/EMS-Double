@@ -44,12 +44,14 @@ table {
 
 .page1{
     padding: 36px 40px;
-    background: #FFFFFF;
+    width: 1920px;
+    height: 527px;
 }
 
 .container {
     display: flex;
     width: 1840px;
+    height: 455px;
     background: #EBF0FA;
     border-radius: 10px;
 }
@@ -80,14 +82,14 @@ table {
     font-size: 17px;
     line-height: 160%;
     color: #727272;
-    margin-top: 18px;
+    margin-top: 16px;
 }
 
 .demo-section-button1 {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 14px 12px 15px 23px;
+    padding: 13px 9px 11px 23px;
     gap: 50px;
     background: #244C98;
     border: none;
@@ -95,10 +97,9 @@ table {
     color: white;
     font-family: 'Manrope', sans-serif;
     font-size: 19px;
-    /* padding: 13px; */
     cursor: pointer;
     transition: background 0.3s;
-    margin-top: 31px;
+    margin-top: 35px;
 }
 
 button:hover {
@@ -124,6 +125,10 @@ button:focus {
     border-radius:200px;
 }
 
+.image-section-settings{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
 
 .modal {
     display: none;
@@ -159,3 +164,43 @@ button:focus {
     cursor: pointer;
 }
 
+@media (max-width: 1440px) {
+    .container {
+        display: flex;
+        width: 1360px;
+        height: 455px;
+        background: #EBF0FA;
+        border-radius: 10px;
+    }
+
+    .image-section {
+        margin-left: 0px;
+        width: 680px;
+        height: 456px;
+
+    }
+
+    .image-section-settings{
+        margin-left: 97px; 
+        width: 680px;
+        height: 456px;
+        padding: 0%;
+    }
+
+    .demo-section-maintext {
+        font-size: 28px;    
+        margin-top: 2px;
+    }
+
+
+
+}
+
+@media (max-width: 768px) {
+
+
+}
+
+@media (max-width: 375px) {
+
+}
